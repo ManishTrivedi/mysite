@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Publisher List</title>
+</head>
+<body>
+    <h2>Publishers</h2>
+    <ul>
+        {% for publisher in my_favorite_publishers %}
+            <li>{{ publisher.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
